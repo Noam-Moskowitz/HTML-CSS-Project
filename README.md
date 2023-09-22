@@ -21,4 +21,4 @@ Feel free to explore and use the content in this repository as needed for your p
 
 You can clone this repository to your local machine using the following command:
 
-git clone <repository-url>
+git clone https://github.com/Noam-Moskowitz/HTML-CSS-Project
