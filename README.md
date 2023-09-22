@@ -1,4 +1,4 @@
-# Project Name
+# HTML CSS Project
 
 This repository contains a collection of projects and resources as requested in our project guidlines.
 
