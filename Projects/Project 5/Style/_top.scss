@@ -1,0 +1,34 @@
+.sticky-icon {
+    background-color: $BgcYellow;
+    border-radius: 100px 100px 100px 100px;
+    padding: 6px 8px 6px 8px;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+}
+.sticky-icon:hover{
+    cursor: pointer;
+    background-color: #f6d676;
+} 
+
+.sticky-icon img {
+    width: 50px;
+}
+
+.corner-border {
+    height: 10px;
+    background-color: $BgcYellow;
+    top: 0;
+    right: 0;
+    width: 20vw;
+}
+
+@media(max-width:950px) {
+    .sticky-icon {
+        display: none;
+    }
+
+    .corner-border {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="clip-suitcase">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="suitcase" clip-path="url(#clip-suitcase)">
+    <g id="Group_3110" data-name="Group 3110" transform="translate(-364 -104)">
+      <g id="Group_3106" data-name="Group 3106">
+        <g id="Group_3105" data-name="Group 3105">
+          <g id="Group_3104" data-name="Group 3104">
+            <path id="Path_3987" data-name="Path 3987" d="M391.458,112.927H368.542a3.5,3.5,0,0,0-3.5,3.5v13.1a3.5,3.5,0,0,0,3.5,3.5h22.916a3.5,3.5,0,0,0,3.5-3.5v-13.1A3.5,3.5,0,0,0,391.458,112.927Zm-22.916,2h22.916a1.5,1.5,0,0,1,1.5,1.5v2.232l-8.523,1.827a.989.989,0,0,0-.977-.886h-6.916a.989.989,0,0,0-.977.886l-8.523-1.827v-2.232A1.5,1.5,0,0,1,368.542,114.927Zm13.916,6.673v1.719h-4.916V121.6Zm9,9.429H368.542a1.5,1.5,0,0,1-1.483-1.331,2.4,2.4,0,0,0,1.225.344h21.125a.5.5,0,0,0,0-1H368.284a1.426,1.426,0,0,1-1.242-.735v-7.6l8.5,1.822v1.792a1,1,0,0,0,1,1h6.916a1,1,0,0,0,1-1v-1.792l8.5-1.822v8.824A1.5,1.5,0,0,1,391.458,131.029Z" fill="#344952"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3109" data-name="Group 3109">
+        <g id="Group_3108" data-name="Group 3108">
+          <g id="Group_3107" data-name="Group 3107">
+            <path id="Path_3988" data-name="Path 3988" d="M373.958,111.833a1,1,0,0,0,1-1v-1.6a1.266,1.266,0,0,1,1.265-1.264h7.554a1.266,1.266,0,0,1,1.265,1.264v1.6a1,1,0,0,0,2,0v-1.6a3.268,3.268,0,0,0-3.265-3.264h-7.554a3.268,3.268,0,0,0-3.265,3.264v1.6A1,1,0,0,0,373.958,111.833Z" fill="#344952"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

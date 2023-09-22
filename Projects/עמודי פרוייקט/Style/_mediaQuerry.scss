@@ -1,0 +1,29 @@
+@media (max-width:700px) {
+    .navbar-toggler {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+
+    .txt-color {
+        font-size: .9em;
+        padding-bottom: 5px;
+    }
+
+    .navbar-text {
+        display: none;
+    }
+
+    #opening h1 {
+        font-size: 2.5em;
+        width: 95vw;
+    }
+
+    #opening p {
+        font-size: .9em;
+        padding: none;
+        width: 80vw;
+        margin: 0;
+    }
+
+    #opening .button-flex {}
+}

@@ -1,0 +1,182 @@
+.container {
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+
+.image-container {
+    width: 50%;
+
+}
+
+#main-image {
+    width: 430px;
+    padding-right: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-container {
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    color: $h1Color;
+    font-size: $h1Size;
+    font-family: $Font;
+    font-weight: bold;
+}
+
+p {
+    color: $pColor;
+    font-size: $pSize;
+    font-family: $Font;
+    width: 25vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding-top: 20px;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+label {
+    font-size: $labelSize;
+    color: $labelColor;
+    font-family: $Font;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    background-color: #E5EEFF;
+    font-size: 1rem;
+    padding: 5px;
+    border-bottom: 3px solid #FDBD03;
+    resize: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+}
+
+.textarea-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+input[type="submit"] {
+    width: 20%;
+    background-color: $BgcYellow;
+    font-family: $Font;
+    font-weight: bold;
+    padding: 5px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #f6d676;
+}
+
+@media(max-width:950px) {
+    .container {
+        flex-direction: column;
+        height: 120vh;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 25%;
+        padding: 20px;
+    }
+
+    #main-image {
+        width: 120px;
+        padding: 0;
+    }
+
+    .content-container {
+        width: 100%;
+        height: 75%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    p {
+        text-align: center;
+        width: 80vw;
+    }
+
+    form {
+        width: 80vw;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+
+    .input {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .textarea-container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    label {
+        padding-top: 10px;
+    }
+
+    input[type="submit"] {
+        width:70%;
+        margin: 0 auto;
+    }
+}
+@media(max-width:550px){
+    .input {
+        width: 90%;
+    }
+    .textarea-container{
+        width: 90%;
+    }
+    input[type="submit"] {
+        width:90%;
+    }
+}

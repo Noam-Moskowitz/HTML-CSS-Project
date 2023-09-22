@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    direction: rtl;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90vw;
+
+}
+
+:root {
+    --textcolor: rgb(172, 166, 166);
+    --label: rgb(148, 124, 204);
+    --hover: rgb(114, 76, 201);
+    --active: rgb(103, 47, 121);
+}
+
+
+.content-control {
+    display: flex;
+    width: 95vw;
+    flex-direction: row-reverse;
+}
+
+.image {
+    height: 100vh;
+    width: 60%;
+    background-image: url('../Images/ohr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 95vh;
+    background-color: black;
+}
+
+.heading h1 {
+    color: var(--textcolor);
+    text-align: center;
+    font-size: 4rem;
+}
+
+.heading h2 {
+    color: var(--textcolor);
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.form h3 {
+    color: var(--textcolor);
+    font-size: 1.5rem;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 50%;
+
+}
+
+.form label {
+    color: var(--label);
+}
+
+.form input {
+    font-size: 1.2rem;
+    padding: 5px;
+    border-bottom: 4px solid rgb(114, 76, 201);
+}
+
+.form input[type=submit] {
+    background-color: var(--label);
+    padding: 5px;
+    width: 25%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    border-radius: 30px;
+}
+
+.form input[type=submit]:hover {
+    background-color: var(--hover);
+}
+
+@media (max-width:1000px) {
+    .heading h1 {
+        font-size: 2.4rem;
+    }
+
+    .heading h2 {
+        font-size: 1.2rem;
+    }
+
+    .form h3 {
+        font-size: 1.2rem;
+
+    }
+}
+
+@media (max-width:700px) {
+    .container {
+        width: 100%;
+    }
+
+    .content-control {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .image {
+        height: 50vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .content {
+        width: 100%;
+        align-items: center;
+    }
+
+    .heading h1 {
+        font-size: 2.2rem;
+    }
+
+    .heading h2 {
+        font-size: 1.5rem;
+    }
+
+    .form h3 {
+        font-size: 1.2rem;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .form input {
+        font-size: 1rem;
+    }
+
+}

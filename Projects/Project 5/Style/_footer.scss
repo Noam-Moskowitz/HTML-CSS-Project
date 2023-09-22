@@ -1,0 +1,48 @@
+footer {
+    width: 100vw;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.banner {
+    width: 50%;
+    border-bottom: 10px solid #FDBD03;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 10px;
+}
+
+.icon-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.icon {
+    background-color: $BgcYellow;
+    border-radius: 100px 100px 100px 100px;
+    padding: 10px 12px 10px 12px;
+}
+.icon:hover{
+    cursor: pointer;
+    background-color: #f6d676;
+}
+
+.icon img {
+    width: 30px;
+}
+
+@media(max-width:950px) {
+    .banner {
+        width: 100vw;
+    }
+
+    .icon-flex {
+        margin: 0 auto;
+        width: 80vw;
+        padding: 10px;
+    }
+}

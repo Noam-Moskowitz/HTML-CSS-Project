@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    background-image: url(../Images/Banner.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-position-y: -30vh;
+}
+
+.top-section {
+    height: 60vh;
+    width: 100vw;
+}
+
+.bottom-section {
+    padding: 20px;
+    height: 40vh;
+}
+
+.yellow {
+    color: #D3E10E;
+}
+
+.heading {
+    font-family: Assistant;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.white {
+    color: #F9F9F9;
+}
+
+.paragraph {
+    font-size: 1.1rem;
+    font-family: Assistant;
+}
+
+.mywidth {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.my-label {
+    color: #011560;
+    font-size: .9rem;
+    font-family: Assistant;
+    font-weight: bold;
+}
+
+.my-input {
+    background-color: #F6F6F6;
+    font-size: 1.1rem;
+    padding: 5px;
+    border-bottom: 5px solid #D3E10E;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.my-input:focus {
+    background-color: #f8fadf;
+    border: 4px solid #D3E10E;
+}
+
+.my-btn {
+    background-color: #D3E10E;
+    padding: 5px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: Assistant;
+    font-weight: bold;
+    border: none;
+}
+
+@media(max-width:1000px) {
+    .heading {
+        font-size: 3.6rem;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+    }
+
+    .mywidth {
+        width: 80vw;
+    }
+}
+
+@media(max-width:770px) {
+    body {
+        background-position-y: -50vh;
+    }
+
+    .top-section {
+        height: 40vh;
+    }
+
+    .bottom-section {
+        padding-top: 20px;
+        height: 60vh;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .my-label {
+        font-size: .8rem;
+    }
+
+    .input-container {
+        padding-top: 15px;
+    }
+
+    .button-container {
+        padding-top: 25px;
+    }
+
+}
+
+@media(max-width:570px) {
+    .heading {
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 0;
+    }
+
+    .paragraph {
+        font-size: 0.8rem;
+    }
+
+    .my-label {
+        font-size: 0.6rem;
+    }
+
+    .my-btn {
+        font-size: 0.9rem;
+    }
+}

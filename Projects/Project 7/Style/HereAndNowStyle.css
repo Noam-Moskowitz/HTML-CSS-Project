@@ -1,0 +1,104 @@
+body {
+    direction: rtl;
+}
+
+.my-cntnr {
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    height: 100vh;
+}
+
+.white {
+    color: white;
+}
+
+.my-clr {
+    color: #F9F9F9;
+}
+
+.header-font {
+    font-family: satisfy;
+    font-size: 6.5rem;
+}
+
+.my-font {
+    font-family: Varela Round;
+}
+
+
+.my-wdth {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.my-inpt {
+    background-color: #F6F6F624;
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.my-inpt:focus {
+    background-color: white;
+}
+
+.my-btn {
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+    border: none;
+}
+
+@media(max-width:1000px) {
+    .button-control {
+        padding-top: 20px;
+    }
+
+    .my-btn {
+        font-size: .7rem;
+        padding: 10px;
+    }
+}
+
+@media(max-width:700px) {
+    .header-font {
+        font-size: 3.7rem;
+    }
+
+    .my-font {
+        font-size: 1.3rem;
+    }
+
+    .p-size {
+        font-size: 1rem;
+        font-family: varela round;
+    }
+
+    .my-label {
+        font-size: 0.7rem;
+    }
+
+    .input-container {
+        padding-top: 10px;
+    }
+
+
+
+    .my-btn {
+        font-size: .9rem;
+    }
+}
+
+@media(max-width:420px) {
+    .header-font {
+        font-size: 2.8rem;
+    }
+
+    .my-font {
+        font-size: 1rem;
+    }
+
+    .p-size {
+        font-size: .6rem;
+        font-family: varela round;
+    }
+}

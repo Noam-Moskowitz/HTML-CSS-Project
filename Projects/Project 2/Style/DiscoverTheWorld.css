@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5EEFF;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.div1 {
+    grid-area: 1;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.div2 {
+    grid-area: 2;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.div3 {
+    grid-area: 3;
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+
+.div4 {
+    grid-area: 4;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.div5 {
+    grid-area: 5;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.div6 {
+    grid-area: 6;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.div7 {
+    grid-area: 7;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.div8 {
+    grid-area: 8;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.div9 {
+    grid-area: 9;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.div10 {
+    grid-area: 10;
+    grid-column: 1/3;
+    grid-row: 4/7;
+}
+
+.div11 {
+    grid-area: 11;
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.div12 {
+    grid-area: 12;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+.div13 {
+    grid-area: 13;
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+.div14 {
+    grid-area: 14;
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+
+.div15 {
+    grid-area: 15;
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+
+.div16 {
+    grid-area: 16;
+    grid-column: 4/5;
+    grid-row: 6/7;
+}
+
+.title {
+    background-color: #020253;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    height: 100%;
+
+
+}
+
+#title h1 {
+    color: #0EE1DA;
+    text-align: center;
+    font: bold 61px/80px Assistant;
+    padding: 40px;
+}
+
+#title p {
+    font: normal 20px/26px Assistant;
+    color: white;
+    direction: rtl;
+    text-align: center;
+}
+
+.form {
+    background-color: #8E097C;
+}
+
+#box {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    width: 90%;
+    height: 100%;
+}
+
+#content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    width: 90%;
+    height: 30%;
+}
+
+#content h2 {
+    text-align: center;
+    color: white;
+    font: bold 35px/46px Assistant;
+    padding: 10px;
+}
+
+#content p {
+    text-align: center;
+    direction: rtl;
+    color: white;
+    font: normal 20px/26px Assistant;
+    padding: 20px;
+}
+
+#form {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.input label {
+    color: #0EE1DA;
+    text-align: right;
+    font: bold 16px/24px Heebo;
+    padding-top: 10px;
+}
+
+.input input {
+    background-color: #E5EEFF;
+    border-bottom: 3px solid #0EE1DA;
+    font-size: 1.2em;
+    padding: 5px;
+    width: 100%;
+    font-family: heebo;
+}
+
+.input textarea {
+    background-color: #E5EEFF;
+    border-bottom: 3px solid #0EE1DA;
+    font-size: 1.2em;
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-family: heebo;
+}
+
+.hebrew {
+    direction: rtl;
+}
+
+#form input[type=submit] {
+    background-color: #0EE1DA;
+    color: #011560;
+    font: bold 24px/33px Heebo;
+    width: 95%;
+    padding: 5px;
+    margin: 0 auto;
+
+
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width:900px) {
+    .container {
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: 90vw;
+    }
+
+    .div1 {
+        grid-area: 1;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .div2 {
+        grid-area: 2;
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .div3 {
+        grid-area: 3;
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+
+    .div4 {
+        grid-area: 4;
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .div5 {
+        grid-area: 5;
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .div6 {
+        grid-area: 6;
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .div7 {
+        grid-area: 7;
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    .div8 {
+        grid-area: 8;
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    .div9 {
+        grid-area: 9;
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+
+    .div10 {
+        grid-area: 10;
+        grid-column: 1/3;
+        grid-row: 7/10;
+    }
+
+    .div11 {
+        grid-area: 11;
+        grid-column: 1/2;
+        grid-row: 10/11;
+    }
+
+    .div12 {
+        grid-area: 12;
+        grid-column: 2/3;
+        grid-row: 10/11;
+    }
+
+    .div13 {
+        grid-area: 13;
+        grid-column: 1/2;
+        grid-row: 11/12;
+    }
+
+    .div14 {
+        grid-area: 14;
+        grid-column: 2/3;
+        grid-row: 11/12;
+    }
+
+    .div15 {
+        grid-area: 15;
+        grid-column: 1/2;
+        grid-row: 12/13;
+    }
+
+    .div16 {
+        grid-area: 16;
+        grid-column: 2/3;
+        grid-row: 12/13;
+    }
+}
+
+
+@media (max-width:700px) {
+
+
+
+
+
+    #title h1 {
+        font: bold 1.8em Assistant;
+        padding: 20px;
+    }
+
+    #title p {
+        margin: 0 auto;
+        font: lighter 1em Assistant;
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    #content {
+        height: 30%;
+    }
+
+    #content h2 {
+        font: bold 25px/33px Assistant;
+    }
+
+    #content p {
+        font: normal 15px Assistant;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    #form {
+        height: 60%;
+    }
+
+    .input {
+        padding: 5px;
+    }
+
+    .input input,
+    .input textarea {
+        font-size: .8em;
+    }
+
+    .input label {
+        font: bold 7px/10px Heebo;
+    }
+
+
+
+
+    #form input[type=submit] {
+        font: bold 12px/16px Heebo;
+
+    }
+}

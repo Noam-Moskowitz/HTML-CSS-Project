@@ -1,0 +1,28 @@
+footer {
+    width: 100vw;
+    background-color: #EBFEFF;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    box-shadow: 0 0 10px black;
+}
+
+@media (max-width:700px) {
+    footer {
+        padding: 30px;
+        height: 50vh;
+    }
+
+    #image {
+        width: 90%;
+    }
+}

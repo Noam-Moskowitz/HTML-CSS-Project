@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+
+
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0px 2px 10px gray;
+    padding-bottom: 0;
+    z-index: 100;
+}
+
+.nav-bgc {
+    background-color: white !important;
+}
+
+.txt-color {
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.txt-color:hover {
+    color: #1AE0EC;
+}
+
+.nav-profile-photo {
+    width: 55px;
+    border-radius: 30px;
+}
+
+.navbar-text {
+    font-family: serif;
+    font-weight: bold;
+}
+
+#opening {
+    height: 80vh;
+    background-color: #13E8F163;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#opening h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: #000;
+    padding: 5px;
+    font-family: Heebo;
+    font-weight: bold;
+
+}
+
+#opening p {
+    font-size: 1.25rem;
+    color: #000;
+    width: 50vw;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    font-family: Heebo;
+}
+
+.banner {
+    box-shadow: 0px 2px 10px gray;
+    width: 100vw;
+
+}
+
+.systems {
+    margin: 0 auto;
+    display: flex;
+    width: 80vw;
+
+    justify-content: space-around;
+
+
+
+}
+
+#systems-photo {
+    width: 100px;
+}
+
+
+
+#about-me {
+    padding: 40px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-me-image {
+    width: 200px;
+    border-radius: 100px;
+
+}
+
+#about-me h2 {
+    font-size: 2.2rem;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    font-family: Heebo;
+    font-weight: bold;
+}
+
+#about-me p {
+    font-size: 1.2rem;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+    width: 60vw;
+}
+
+#about-me a {
+    font-size: 1.2rem;
+    background-color: #1AE0EC;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #000;
+
+    text-align: center;
+    padding: 5px;
+    transition: all .15s ease-in-out;
+}
+
+#about-me a:hover,
+.project a:hover {
+    background-color: black;
+    color: #1AE0EC;
+}
+
+#gallery {
+
+    width: 100vw;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Heebo;
+    font-weight: Bold;
+}
+
+#gallery-para {
+    font-size: 1.2rem;
+    color: #000;
+    text-align: center;
+    width: 30vw;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.project {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+
+#project-image {
+    height: 60%;
+    width: 100%;
+    padding: 5px;
+}
+
+.project h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #000;
+    font-family: Heebo;
+    font-weight: bold;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+    width: 20vw;
+    padding: 5px;
+}
+
+
+
+.flex {
+    display: flex;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#project-systems {
+    width: 65px;
+}
+
+.project a {
+    background-color: #1AE0EC;
+    border-radius: 15px;
+    font-size: .9rem;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+
+    transition: all .15s ease-in-out;
+}
+
+#contact {
+    width: 100vw;
+    padding: 50px;
+    background-color: #3A3A3A;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 10px 0 15px grey;
+}
+
+#contact img[src*="envelope"] {
+    width: 400px;
+    rotate: 30deg;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: left;
+    padding: 5px;
+    font-family: Heebo;
+    font-weight: bold;
+}
+
+.form p {
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    width: 20vw;
+}
+
+.form label {
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 20px;
+}
+
+input[type=submit] {
+    font-size: 1.2rem;
+    background-color: #89f1f7;
+    border-radius: 25px;  width: 8vw;
+    margin-top: 15px;
+    transition: all .15s ease-in-out;
+    padding: 5px;
+    border-bottom: none
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: #89f1f7;
+    cursor: pointer;
+}
+
+
+
+input,
+textarea {
+    background-color: #89f1f7;
+    color: black;
+    border-bottom: 3px solid white;
+    padding: 5px;
+    resize: none;
+}
+
+input:focus,
+textarea:focus {
+    background-color: white;
+    border-bottom: 5px solid #89f1f7;
+
+}
+
+.description {
+    height: 10vh;
+    max-lines: 30;
+}
+
+footer {
+    background-color: #1AE0EC;
+    width: 100vw;
+    /*  height: 15vh; */
+}
+
+.icons {
+    margin: 0 auto;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 20px;
+    transition: all .1s ease-in-out;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+hgroup:hover {
+    color: black;
+    cursor: pointer;
+    background-color: #64e6ec;
+}
+
+img[src*="com"] {
+    width: 40px;
+    padding-bottom: 5px;
+}
+
+
+
+#copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 100vw;
+    /* height: 3vh; */
+    padding: 2px;
+}
+
+.rights-flex {
+    margin: 0 auto;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#copyright h6 {
+    font-size: 1rem;
+    color: #1AE0EC;
+}
+
+@media(max-width:1100px) {
+    .systems {
+        flex-wrap: wrap;
+        justify-content: none;
+        width: 100vw;
+    }
+
+    .navbar {
+        padding-bottom: 8px;
+        text-align: left;
+
+    }
+
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+
+    #contact img[src*="envelope"] {
+        width: 200px;
+        rotate: 30deg;
+    }
+    input[type="submit"]{
+font-size: 1rem;
+    }
+    .icons {
+        flex-wrap: wrap;
+        width: 90vw;
+
+    }
+}
+
+@media(max-width:700px) {
+
+
+    .navbar {
+        padding-bottom: 8px;
+        text-align: left;
+
+    }
+
+    .navbar-text {
+        display: none;
+    }
+
+    /* Page Opening */
+
+    #opening {
+        height: 60vh;
+    }
+
+    #opening h1 {
+        font-size: 2.5rem;
+    }
+
+    #opening p {
+        font-size: 0.9rem;
+        width: 70vw;
+    }
+
+
+
+    .systems {
+        flex-wrap: wrap;
+        justify-content: none;
+        width: 90vw;
+    }
+
+    #systems-photo {
+        width: 55px;
+    }
+
+
+
+    #about-me img {
+        width: 80px;
+    }
+
+    #about-me h2 {
+        font-size: 1.8rem;
+    }
+
+    #about-me p {
+        font-size: 0.8rem;
+        width: 90vw;
+    }
+
+    #about-me a {
+        font-size: .8rem;
+        text-align: center;
+        width: 30vw;
+    }
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+    }
+
+    #gallery h2 {
+        font-size: 1.5rem;
+    }
+
+    #gallery-para {
+        font-size: .9rem;
+        width: 80vw;
+    }
+
+
+
+    .project h3 {
+        font-size: 1.2rem;
+    }
+
+    .project p {
+        font-size: 0.9rem;
+        width: 70vw;
+    }
+
+    .project a {
+        font-size: 0.7rem;
+        width: 20vw;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact img[src*="envelope"] {
+        width: 100px;
+        rotate: 30deg;
+    }
+
+
+
+
+
+    .form h2 {
+        font-size: 1.5rem;
+    }
+
+    .form p {
+        font-size: .9rem;
+        width: 70vw;
+    }
+
+    .form label {
+        font-size: .7rem;
+    }
+
+    input[type=submit] {
+        font-size: 0.7rem;
+        width: 20vw;
+    }
+
+    
+
+    hgroup {
+        width: 40vw;
+    }
+
+    .icons hgroup p {
+        font-size: .8rem;
+    }
+
+    #copyright h6 {
+        font-size: 0.5rem;
+    }
+}
