@@ -1,21 +1,21 @@
-# Project Repository
+# Project Name
 
-This repository contains the following components:
+This repository contains a collection of projects and resources as requested in our project guidlines.
 
-1. **index.html**: The main HTML file for the project.
-2. **README.md**: This file you are currently reading, providing an overview of the repository.
-3. **download**: Contains a PDF resume.
-4. **Images**: Contains images used in the `index.html` page.
-5. **Style**: Contains stylesheets for the `index.html` page.
-6. **Projects**: Contains 8 project folders (labeled 1-8) with individual project files.
-7. **עמודי פרוייקטים**: Contains 8 HTML pages (labeled "project 1-8 page") and additional subfolders:
+## Components
+
+- **index.html**: The main HTML file for the project.
+- **README.md**: This file provides an overview of the repository.
+- **download**: Contains a PDF resume.
+- **Images**: Contains images used in the `index.html` page.
+- **Style**: Contains stylesheets for the `index.html` page.
+- **Projects**: Contains 8 project folders (labeled 1-8) with individual project files.
+- **עמודי פרוייקטים**: Contains 8 HTML pages (labeled "project 1-8 page") and additional subfolders:
    - **images**: Images used in the project$page.html pages.
    - **style**: Sass and CSS files for the Project$Page.html pages.
    - **zips**: Compressed versions of project folders 1-8.
 
 Each project folder in the "Projects" directory includes an HTML file, a style folder with stylesheets, and an images folder with project-related images.
-
-Feel free to explore and use the content in this repository as needed for your projects.
 
 ## Usage
 
