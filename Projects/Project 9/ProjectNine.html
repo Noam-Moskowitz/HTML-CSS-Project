@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/ProjectNineStyle.css">
+</head>
+
+<body>
+    <div class="container-fluid my-container">
+        <div class="image-container">
+            <img src="./Images/computer.png" alt="Computer Image">
+        </div>
+        <div class="content-container d-flex flex-column p-4">
+            <div class="typography-container d-flex flex-column alight-items-center justify-content-center">
+                <h1 class="text-center p-3 grey display-3 heading">כל עסק <span class="highlight">חייב</span> דף נחיתה
+                </h1>
+                <h2 class="text-center h4 grey sub-heading">לורם איפסום דולר שמולר חזר ערך לא אומר כלום איני שלום.</h2>
+            </div>
+            <div class="form-container p-4">
+                <form class="d-flex flex-column">
+                    <label class="pt-2  my-lbl" for="text">שם מלא</label>
+                    <input class="p-1 my-inpt" required type="text">
+                    <label class="pt-2 my-lbl" for="tel">מספר טלפון</label>
+                    <input class="p-1 my-inpt" required type="tel">
+                    <label class="pt-2 my-lbl" for="email">דוא"ל</label>
+                    <input class="p-1 my-inpt" required type="email">
+                    <label class="pt-2 my-lbl" for="">איך שמעתם עלינו?</label>
+                    <select class="p-1 text-center my-inpt" required name="" id="">
+                        <optgroup>
+                            <option value="" disabled selected>----בחר----</option>
+                            <option value="רשתות חברתיות">רשתות חברתיות</option>
+                            <option value="המלצה של חבר">המלצה של חבר</option>
+                            <option value="פרסומת בטלוויזיה">פרסומת בטלוויזיה</option>
+                            <option value="סתם נתקלתי באתר שלכם במקרה">סתם נתקלתי באתר שלכם במקרה</option>
+                            <option value="אחר">אחר</option>
+                        </optgroup>
+                    </select>
+                    <input class="p-1 mt-3 my-button" type="submit" value="שליחה">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
