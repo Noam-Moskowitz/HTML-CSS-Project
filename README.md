@@ -2,6 +2,8 @@
 
 This repository contains a collection of projects and resources as requested in our project guidlines.
 
+##Technologies Used
+
 **Frontend:** HTML, CSS, JavaScript.
 
 ## Components
