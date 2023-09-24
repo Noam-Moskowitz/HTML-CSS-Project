@@ -1,6 +1,8 @@
-﻿# HTML CSS Project
+# HTML CSS Project
 
 This repository contains a collection of projects and resources as requested in our project guidlines.
+
+**Frontend:** HTML, CSS, JavaScript.
 
 ## Components
 
