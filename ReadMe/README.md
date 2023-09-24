@@ -23,6 +23,9 @@ You can clone this repository to your local machine using the following command:
 
 git clone https://github.com/Noam-Moskowitz/HTML-CSS-Project
 
+View on GitHub pages Via the following link:
+https://noam-moskowitz.github.io/HTML-CSS-Project/Index.html
+
 
 
 # פרוייקט HTML CSS
@@ -50,3 +53,7 @@ git clone https://github.com/Noam-Moskowitz/HTML-CSS-Project
 
 
 git clone https://github.com/Noam-Moskowitz/HTML-CSS-Project
+ 
+הלינק המצורף פותח את הפרוייקט:
+
+https://noam-moskowitz.github.io/HTML-CSS-Project/Index.html
