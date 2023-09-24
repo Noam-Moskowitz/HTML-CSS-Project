@@ -46,7 +46,7 @@ body {
     width: 100%;
     padding: 5px;
     border: none;
-    color: black
+    color: black;
 }
 
 @media(max-width:1000px) {
