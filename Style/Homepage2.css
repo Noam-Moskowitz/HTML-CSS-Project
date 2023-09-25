@@ -14,8 +14,6 @@ overflow-x: hidden;
 
 header {
     width: 100vw;
-
-
 }
 
 .navbar {
@@ -66,7 +64,6 @@ header {
     padding: 5px;
     font-family: Heebo;
     font-weight: bold;
-
 }
 
 #opening p {
@@ -82,18 +79,13 @@ header {
 .banner {
     box-shadow: 0px 2px 10px gray;
     width: 100vw;
-
 }
 
 .systems {
     margin: 0 auto;
     display: flex;
     width: 80vw;
-
     justify-content: space-around;
-
-
-
 }
 
 #systems-photo {
@@ -140,7 +132,6 @@ header {
     text-decoration: none;
     border-radius: 25px;
     color: #000;
-
     text-align: center;
     padding: 5px;
     transition: all .15s ease-in-out;
@@ -153,7 +144,6 @@ header {
 }
 
 #gallery {
-
     width: 100vw;
     background-color: #F6F6F6;
     display: flex;
@@ -161,7 +151,6 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-
 }
 
 #gallery h2 {
@@ -247,7 +236,6 @@ header {
     text-decoration: none;
     text-align: center;
     padding: 5px;
-
     transition: all .15s ease-in-out;
 }
 
@@ -327,7 +315,6 @@ input:focus,
 textarea:focus {
     background-color: white;
     border-bottom: 5px solid #89f1f7;
-
 }
 
 .description {
@@ -338,7 +325,6 @@ textarea:focus {
 footer {
     background-color: #1AE0EC;
     width: 100vw;
-    /*  height: 15vh; */
 }
 
 .icons {
@@ -347,7 +333,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
 hgroup {
@@ -358,7 +343,6 @@ hgroup {
     padding: 10px;
     padding-top: 20px;
     transition: all .1s ease-in-out;
-
 }
 
 footer a {
@@ -385,7 +369,6 @@ img[src*="com"] {
     justify-content: space-between;
     background-color: black;
     width: 100vw;
-    /* height: 3vh; */
     padding: 2px;
 }
 
@@ -412,7 +395,6 @@ img[src*="com"] {
     .navbar {
         padding-bottom: 8px;
         text-align: left;
-
     }
 
     .container {
@@ -431,17 +413,13 @@ font-size: 1rem;
     .icons {
         flex-wrap: wrap;
         width: 90vw;
-
     }
 }
 
 @media(max-width:700px) {
-
-
     .navbar {
         padding-bottom: 8px;
         text-align: left;
-
     }
 
     .navbar-text {
@@ -462,9 +440,7 @@ font-size: 1rem;
         font-size: 0.9rem;
         width: 70vw;
     }
-
-
-
+    
     .systems {
         flex-wrap: wrap;
         justify-content: none;
@@ -474,9 +450,7 @@ font-size: 1rem;
     #systems-photo {
         width: 55px;
     }
-
-
-
+    
     #about-me img {
         width: 80px;
     }
@@ -510,8 +484,6 @@ font-size: 1rem;
         width: 80vw;
     }
 
-
-
     .project h3 {
         font-size: 1.2rem;
     }
@@ -535,10 +507,6 @@ font-size: 1rem;
         rotate: 30deg;
     }
 
-
-
-
-
     .form h2 {
         font-size: 1.5rem;
     }
@@ -556,8 +524,6 @@ font-size: 1rem;
         font-size: 0.7rem;
         width: 20vw;
     }
-
-    
 
     hgroup {
         width: 40vw;
