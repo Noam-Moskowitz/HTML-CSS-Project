@@ -1,6 +1,9 @@
 # HTML CSS Project
 
-This repository contains a collection of projects and resources as requested in our project guidlines.
+This repository contains a Home Page containing 3 sections:
+1.About Me- Contains a small bio and an option to download my CV.
+2.Gallery- Contains a collection of projects as requested in our project guidlines.
+3.Contact- Contains a basic form.
 
 ## Technologies Used
 
@@ -34,7 +37,14 @@ https://noam-moskowitz.github.io/HTML-CSS-Project/Index.html
 
 # פרוייקט HTML CSS
 
-מאגר זה מכיל אוסף של פרוייקטים ומשאבים כפי שנדרש בהנחיות הפרוייקט שלנו.
+
+המאגר הזה מכיל דף הבית המכיל 3 סעיפים:
+1. אודות - מכיל ביוגרפיה קטנה ואפשרות להורדת קורות חיי שלי.
+2. גלריה - מכיל אוסף של פרויקטים כפי שנדרש בהנחיות הפרויקט שלנו.
+3. צור קשר - מכיל טופס בסיסי.
+
+## תוכנות
+**צד שרת:** HTML,CSS,JavaScript. 
 
 ## רכיבים
 
