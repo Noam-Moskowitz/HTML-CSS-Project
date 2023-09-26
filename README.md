@@ -1,9 +1,9 @@
 # HTML CSS Project
 
 This repository contains a Home Page containing 3 sections:
-1.About Me- Contains a small bio and an option to download my CV.
-2.Gallery- Contains a collection of projects as requested in our project guidlines.
-3.Contact- Contains a basic form.
+1. About Me- Contains a small bio and an option to download my CV.
+2. Gallery- Contains a collection of projects as requested in our project guidlines.
+3. Contact- Contains a basic form.
 
 ## Technologies Used
 
