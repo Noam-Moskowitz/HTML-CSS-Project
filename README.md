@@ -16,11 +16,11 @@ This repository contains a Home Page containing 3 sections:
 - **download**: Contains a PDF resume.
 - **Images**: Contains images used in the `index.html` page.
 - **Style**: Contains stylesheets for the `index.html` page.
-- **Projects**: Contains 8 project folders (labeled 1-8) with individual project files.
-- **עמודי פרוייקטים**: Contains 8 HTML pages (labeled "project 1-8 page") and additional subfolders:
+- **Projects**: Contains 9 project folders (labeled 1-9) with individual project files.
+- **עמודי פרוייקטים**: Contains 9 HTML pages (labeled "project 1-9 page") and additional subfolders:
    - **images**: Images used in the project$page.html pages.
    - **style**: Sass and CSS files for the Project$Page.html pages.
-   - **zips**: Compressed versions of project folders 1-8.
+   - **zips**: Compressed versions of project folders 1-9.
 
 Each project folder in the "Projects" directory includes an HTML file, a style folder with stylesheets, and an images folder with project-related images.
 
