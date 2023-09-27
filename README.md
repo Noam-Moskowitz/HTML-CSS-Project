@@ -63,7 +63,7 @@ https://noam-moskowitz.github.io/HTML-CSS-Project/Index.html
 
 ## שימוש
 
-ניתן לשכפל מאגר זה למכונת המקומית שלך באמצעות הפקודה הבאה:
+ניתן לשכפל מאגר זה באמצעות הפקודה הבאה:
 
 
 git clone https://github.com/Noam-Moskowitz/HTML-CSS-Project
